@@ -11,6 +11,8 @@ mvn clean test
 ```
 
 ## Jacoco test report
+> the report will be located at `phone-processor/phone-processor/target/site/jacoco/index.html
+
 ```sh
 mvn clean test verify
 ```
