@@ -1,3 +1,27 @@
+# Phone processor
+
+## Build Package
+```sh
+mvn clean package
+```
+
+## Test
+```sh
+mvn clean test
+```
+
+## Jacoco test report
+```sh
+mvn clean test verify
+```
+
+## Run
+```sh
+java -jar target/phone-processor.jar [your_input_file.txt]
+```
+
+---
+
 # Java Application
 
 ## Exercise
